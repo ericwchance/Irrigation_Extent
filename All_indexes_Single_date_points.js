@@ -1,8 +1,9 @@
-/////////Currently set up to do EVI average for 2002 and 2007, but you can change it to NDVI
+/////////Currently set up to do EVI average for 2002 and 2007, but you can change it to NDVI or NDMI
 
 
 var L5_32_NDVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_NDVI"),
     L5_32_EVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_EVI"),
+    L5_32_NDMI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_NDWI"),
     fc = ee.FeatureCollection("ft:1uCCauJs8vvrnHcWBVxKIRf1VpBsBGPl8UeQmlgzd");
 
 //pull data for each growing season
