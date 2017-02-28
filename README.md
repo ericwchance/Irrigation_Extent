@@ -8,3 +8,4 @@ Things that need to be changed manually in the codes:
 	The threshold.
 	Maxes and averages use the same code, just change every max to avg.
 	In the matlab code, the input filename and cell ranges need to be changed. 
+	Codes are only included for Landsat, those for MODIS are basically the same, just change the feature collection.
