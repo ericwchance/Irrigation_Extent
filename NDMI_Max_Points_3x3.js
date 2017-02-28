@@ -1,12 +1,9 @@
 var L5_32_EVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_EVI"),
     fc = ee.FeatureCollection("ft:1uCCauJs8vvrnHcWBVxKIRf1VpBsBGPl8UeQmlgzd");
     
-    var fcc = ee.FeatureCollection('ft:1vduVGOs9LB6TnXDC-nuNyOxtTbSl0W2nEca83iSq');
-
+var fcc = ee.FeatureCollection('ft:1vduVGOs9LB6TnXDC-nuNyOxtTbSl0W2nEca83iSq');
 var collection = ee.ImageCollection('LANDSAT/LT5_SR')
   .set('SENSOR_ID', 'TM');
-//  .filterDate('1984-01-01', '1984-12-31')
-//  .filterBounds(ee.Geometry.Rectangle(-111.12073045, 42.00940876, -114.96933917, 44.53879937));
 
 //add ndwi
 var addNDWI = function(image) {
@@ -26,19 +23,6 @@ var collection4=collection2.map(maskClouds);
 
 //remove other bands
 var ndwi_base = collection4.select(['nd']);
-
-
-// Create a greenest pixel composite.
-//var greenestpc = collection4.qualityMosaic('nd');
-//var greenestpc2 = collection2.qualityMosaic('nd');
-
-//remove other bands
-//var ndwi = greenestpc.select(['nd']);
-//var ndwi_all= collection4.select('nd');
-
-//var gs= ndwi_base.filterDate('1984-04-01', '1984-11-01');
-//var ndwi_gs_mean= gs.reduce(ee.Reducer.mean());
-
 
 //pull data for each growing season
 var ls01 = ndwi_base.filterDate('2002-04-01', '2002-10-31');
