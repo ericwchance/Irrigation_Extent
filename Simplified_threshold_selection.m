@@ -1,4 +1,4 @@
-//___________Eric Chance and Blaine Dawson__Virginia Tech and Boise State____2017
+%___________Eric Chance and Blaine Dawson__Virginia Tech and Boise State____2017
 
 filename = 'C:\WHATEVER\somefile.xlsx';
 
