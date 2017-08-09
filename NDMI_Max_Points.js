@@ -1,3 +1,4 @@
+//------------Eric Chance, Virginia Tech 2017
 var L5_32_EVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_EVI"),
     fc = ee.FeatureCollection("ft:1uCCauJs8vvrnHcWBVxKIRf1VpBsBGPl8UeQmlgzd");
 
