@@ -1,3 +1,5 @@
+//___________Eric Chance__Virginia Tech____2017
+
 var fc = ee.FeatureCollection("ft:1vduVGOs9LB6TnXDC-nuNyOxtTbSl0W2nEca83iSq"),
     L5EVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_EVI"),
     L5NDVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_NDVI"),
