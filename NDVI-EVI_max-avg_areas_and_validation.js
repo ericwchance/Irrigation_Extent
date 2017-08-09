@@ -1,3 +1,5 @@
+//___________Eric Chance__Virginia Tech____2017
+
 //can swith out EVI/NDVI and max/mean
 
 var fc = ee.FeatureCollection("ft:1vduVGOs9LB6TnXDC-nuNyOxtTbSl0W2nEca83iSq"),
