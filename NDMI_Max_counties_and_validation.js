@@ -1,3 +1,5 @@
+//___________Eric Chance__Virginia Tech____2017
+
 // Load a Fusion Table from the ID using the FeatureCollection constructor.
 //var fc = ee.FeatureCollection('ft:1vduVGOs9LB6TnXDC-nuNyOxtTbSl0W2nEca83iSq');
 
