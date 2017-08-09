@@ -1,5 +1,6 @@
-/////////Currently set up to do EVI average for 2002 and 2007, but you can change it to NDVI or NDMI
+//___________Eric Chance__Virginia Tech____2017
 
+/////////Currently set up to do EVI average for 2002 and 2007, but you can change it to NDVI or NDMI
 
 var L5_32_NDVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_NDVI"),
     L5_32_EVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_EVI"),
