@@ -1,3 +1,5 @@
+//___________Eric Chance__Virginia Tech____2017
+
 //Can change NDVI and EVI out as well as exchange means for maxes.
 
 var L5_32_NDVI = ee.ImageCollection("LANDSAT/LT5_L1T_32DAY_NDVI"),
